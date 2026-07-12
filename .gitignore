@@ -1,0 +1,32 @@
+# Hyperparameter-search artifacts (model checkpoints, ~350MB+).
+# Regenerate by rerunning the tuning cells in notebooks/main_training_pipeline.ipynb.
+keras_tuner/
+tuner_results/
+
+# Large raw data files (too big for a normal git push -- GitHub hard-blocks
+# anything over 100MB). Kept locally; supply/download your own copies to
+# rerun the notebooks. See README.md for details.
+data/KXINX_trades_range_vs_sp.csv
+data/3D_articles_new_version_hm.csv
+data/3D_articles_Tariff_hm.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Model/training artifacts that may get generated locally
+*.h5
+*.weights.h5
+*.pkl
+*.npy
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

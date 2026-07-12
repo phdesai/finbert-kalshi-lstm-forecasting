@@ -1,0 +1,10 @@
+tensorflow>=2.13
+keras-tuner>=1.3
+numpy
+pandas
+scikit-learn
+matplotlib
+nltk
+vaderSentiment
+tqdm
+jupyter
