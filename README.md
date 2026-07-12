@@ -1,5 +1,7 @@
 # Sentiment-Augmented LSTM Price Forecasting
 
+http://hdl.handle.net/10230/71635
+
 Thesis project exploring whether news/article sentiment (and Kalshi prediction
 market data) improves short-horizon SPY price forecasts on top of a
 price-only LSTM baseline. Each experiment trains a two-stage model: (1) an
